@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+  <InternalInfo>
+    <xen:generator>
+      <xen:packageName>ДваРояля</xen:packageName>
+    </xen:generator>
+  </InternalInfo>
+  <Properties>
+    <Name>СтатусыПубликации</Name>
+    <Synonym>Статусы публикации</Synonym>
+    <Comment/>
+    <UUID>6fa1d0f9-521b-4596-a4d3-504a36c9be42</UUID>
+    <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+    <BelongsToUnknownSection>false</BelongsToUnknownSection>
+    <Value>
+      <Name>Черновик</Name>
+      <Synonym>Черновик</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Опубликовано</Name>
+      <Synonym>Опубликовано</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Архив</Name>
+      <Synonym>Архив</Synonym>
+      <Comment/>
+    </Value>
+  </Properties>
+</MetaDataObject>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+
+  <Properties>
+    <Name>УправлениеДоступом</Name>
+    <Synonym>Управление доступом</Synonym>
+    <Comment/>
+    <UUID>37c743aa-b558-48ee-987b-539a26f3e03a</UUID>
+    <Server>true</Server>
+    <ClientManagedApplication>false</ClientManagedApplication>
+    <ExternalConnection>false</ExternalConnection>
+    <ClientOrdinaryApplication>false</ClientOrdinaryApplication>
+    <ServerCall>false</ServerCall>
+    <Privileged>false</Privileged>
+    <ReturnValuesReuse>DontUse</ReturnValuesReuse>
+    <Global>true</Global>
+    <ClientConnect>false</ClientConnect>
+    <ServerCallForManagedApplication>false</ServerCallForManagedApplication>
+  </Properties>
+</MetaDataObject>

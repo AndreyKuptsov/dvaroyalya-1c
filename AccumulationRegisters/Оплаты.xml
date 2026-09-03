@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+
+  <Properties>
+    <Name>Оплаты</Name>
+    <Synonym>Оплаты</Synonym>
+    <Comment/>
+    <UUID>90f399d2-3120-4189-90a4-13398184ec06</UUID>
+    <RegisterType>Turnover</RegisterType>
+    <UseStandardCommands>true</UseStandardCommands>
+    <DataLockControlMode>Managed</DataLockControlMode>
+    <RegisterRecords>
+    </RegisterRecords>
+    <WriteMode>Exchange</WriteMode>
+    <DefaultListForm>AccumulationRegister.Оплаты.ListForm</DefaultListForm>
+  </Properties>
+  <ChildObjects>
+    <Dimension>
+      <Name>Клиент</Name>
+      <Synonym>Клиент</Synonym>
+      <Comment/>
+      <UUID>7e0bdca4-1aec-4934-b60b-56fc87297132</UUID>
+      <ValueType><v8:Type>cfg:CatalogRef.Клиенты</v8:Type><v8:TypeQualifiers><v8:Type>cfg:CatalogRef.Клиенты</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <Indexing>Index</Indexing>
+      <DataLockFields>Use</DataLockFields>
+    </Dimension>
+
+    <Dimension>
+      <Name>Абонемент</Name>
+      <Synonym>Абонемент</Synonym>
+      <Comment/>
+      <UUID>0bf9ebed-f75c-4bbe-b4a8-5648df79b79f</UUID>
+      <ValueType><v8:Type>cfg:CatalogRef.АбонементыКлиента</v8:Type><v8:TypeQualifiers><v8:Type>cfg:CatalogRef.АбонементыКлиента</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <Indexing>Index</Indexing>
+      <DataLockFields>Use</DataLockFields>
+    </Dimension>
+
+    <Dimension>
+      <Name>Назначение</Name>
+      <Synonym>Назначение</Synonym>
+      <Comment/>
+      <UUID>377294a6-e61a-4a3b-ba82-590a3db361c1</UUID>
+      <ValueType><v8:Type>cfg:EnumRef.ВидыОперацийОплат</v8:Type><v8:TypeQualifiers><v8:Type>cfg:EnumRef.ВидыОперацийОплат</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <Indexing>Index</Indexing>
+      <DataLockFields>Use</DataLockFields>
+    </Dimension>
+
+    <Resource>
+      <Name>Сумма</Name>
+      <Synonym>Сумма</Synonym>
+      <Comment/>
+      <UUID>69ef74b7-968a-4e0e-9b84-522118cde8a8</UUID>
+      <ValueType><v8:Type>xs:decimal</v8:Type><v8:Qualifiers><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Precision>15</v8:Precision><v8:Scale>2</v8:Scale></v8:NumberQualifiers></v8:Qualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <DataLockFields>Use</DataLockFields>
+    </Resource>
+
+    <Resource>
+      <Name>КоличествоОплат</Name>
+      <Synonym>Количество оплат</Synonym>
+      <Comment/>
+      <UUID>497ea3ba-104e-4f0c-be4b-5de54c4c4f7d</UUID>
+      <ValueType><v8:Type>xs:decimal</v8:Type><v8:Qualifiers><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Precision>15</v8:Precision><v8:Scale>0</v8:Scale></v8:NumberQualifiers></v8:Qualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <DataLockFields>Use</DataLockFields>
+    </Resource>
+
+  </ChildObjects>
+</MetaDataObject>

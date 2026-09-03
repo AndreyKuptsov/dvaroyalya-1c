@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+
+  <Properties>
+    <Name>ДоступностьАудиторий</Name>
+    <Synonym>Доступность аудиторий</Synonym>
+    <Comment/>
+    <UUID>717d1865-4c43-4348-a0b9-f591f49da483</UUID>
+    <InformationRegisterPeriodicity>
+      <Type>Day</Type>
+      <Frequency></Frequency>
+      <ShiftByDays>0</ShiftByDays>
+    </InformationRegisterPeriodicity>
+    <UseStandardCommands>true</UseStandardCommands>
+    <DataLockControlMode>Managed</DataLockControlMode>
+    <RegisterRecords>
+    </RegisterRecords>
+    <WriteMode>Exchange</WriteMode>
+    <DataVersioning>DontUse</DataVersioning>
+    <MainPresentation>Auto</MainPresentation>
+    <DefaultListForm>InformationRegister.ДоступностьАудиторий.ListForm</DefaultListForm>
+    <DefaultChoiceForm>InformationRegister.ДоступностьАудиторий.ChoiceForm</DefaultChoiceForm>
+  </Properties>
+  <ChildObjects>
+    <Dimension>
+      <Name>Аудитория</Name>
+      <Synonym>Аудитория</Synonym>
+      <Comment/>
+      <UUID>3d11a35c-e91d-4bcd-8355-24d6efe52de1</UUID>
+      <ValueType><v8:Type>cfg:CatalogRef.Аудитории</v8:Type><v8:TypeQualifiers><v8:Type>cfg:CatalogRef.Аудитории</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <Indexing>Index</Indexing>
+      <DataLockFields>Use</DataLockFields>
+    </Dimension>
+
+    <Dimension>
+      <Name>ДеньНедели</Name>
+      <Synonym>День недели</Synonym>
+      <Comment/>
+      <UUID>1e0bbcfc-e0e5-4c12-a1b6-58720b6cf693</UUID>
+      <ValueType><v8:Type>xs:decimal</v8:Type><v8:Qualifiers><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Precision>1</v8:Precision><v8:Scale>0</v8:Scale></v8:NumberQualifiers></v8:Qualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <Indexing>Index</Indexing>
+      <DataLockFields>Use</DataLockFields>
+    </Dimension>
+
+    <Resource>
+      <Name>ВремяНачала</Name>
+      <Synonym>Время начала</Synonym>
+      <Comment/>
+      <UUID>cec58b00-5a65-4a64-b03a-578d30572281</UUID>
+      <ValueType><v8:Type>xs:dateTime</v8:Type><v8:TypeQualifiers><v8:Type>xs:dateTime</v8:Type><v8:DateQualifiers><v8:DateFractions>Time</v8:DateFractions></v8:DateQualifiers></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <DataLockFields>Use</DataLockFields>
+    </Resource>
+
+    <Resource>
+      <Name>ВремяОкончания</Name>
+      <Synonym>Время окончания</Synonym>
+      <Comment/>
+      <UUID>8da28b4d-13e3-4828-bdd8-b4f2c8f64531</UUID>
+      <ValueType><v8:Type>xs:dateTime</v8:Type><v8:TypeQualifiers><v8:Type>xs:dateTime</v8:Type><v8:DateQualifiers><v8:DateFractions>Time</v8:DateFractions></v8:DateQualifiers></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <DataLockFields>Use</DataLockFields>
+    </Resource>
+
+    <Resource>
+      <Name>Доступна</Name>
+      <Synonym>Доступна</Synonym>
+      <Comment/>
+      <UUID>79ad6157-e5d5-448c-bede-ce5a18cb92c9</UUID>
+      <ValueType><v8:Type>xs:boolean</v8:Type><v8:TypeQualifiers><v8:Type>xs:boolean</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <DataLockFields>Use</DataLockFields>
+    </Resource>
+
+  </ChildObjects>
+</MetaDataObject>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/composition" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcsse="http://v8.1c.ru/8.1/data-composition-system/settings-options" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+  <autoTitle>true</autoTitle>
+  <autoTitleSet>true</autoTitleSet>
+  <type>Managed</type>
+  <Extensions/>
+  <Attributes>
+    <Attribute name="Объект">
+      <Types><Type>cfg:DocumentObject.Возврат</Type></Types>
+      <MainAttribute>true</MainAttribute>
+      <SavedData>true</SavedData>
+    </Attribute>
+  </Attributes>
+  <ChildItems>
+    <FormField name="Клиент" horizontalStretch="true">
+      <DataPath>Объект.Клиент</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Клиент</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="Сумма" horizontalStretch="true">
+      <DataPath>Объект.Сумма</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Сумма</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="СпособОплаты" horizontalStretch="true">
+      <DataPath>Объект.СпособОплаты</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Способ оплаты</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="Абонемент" horizontalStretch="true">
+      <DataPath>Объект.Абонемент</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Абонемент</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="Комментарий" horizontalStretch="true">
+      <DataPath>Объект.Комментарий</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Комментарий</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+  </ChildItems>
+  <Commands/>
+  <Parameters/>
+  <EventHandlers/>
+  <ExtendedAttributes/>
+  <FormAttributes/>
+  <CommandInterface/>
+  <FormDependencies/>
+  <FormExtensions>
+    <FormExtension>
+      <Module></Module>
+    </FormExtension>
+  </FormExtensions>
+</Form>

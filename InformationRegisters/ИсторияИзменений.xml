@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+
+  <Properties>
+    <Name>ИсторияИзменений</Name>
+    <Synonym>История изменений</Synonym>
+    <Comment/>
+    <UUID>cddcd0ee-19ab-4f16-80d3-fa75be903734</UUID>
+    <InformationRegisterPeriodicity>
+      <Type>Nonperiodical</Type>
+      <Frequency/>
+      <ShiftByDays>0</ShiftByDays>
+    </InformationRegisterPeriodicity>
+    <UseStandardCommands>true</UseStandardCommands>
+    <DataLockControlMode>Managed</DataLockControlMode>
+    <RegisterRecords>
+    </RegisterRecords>
+    <WriteMode>Exchange</WriteMode>
+    <DataVersioning>DontUse</DataVersioning>
+    <MainPresentation>Auto</MainPresentation>
+    <DefaultListForm>InformationRegister.ИсторияИзменений.ListForm</DefaultListForm>
+    <DefaultChoiceForm>InformationRegister.ИсторияИзменений.ChoiceForm</DefaultChoiceForm>
+  </Properties>
+  <ChildObjects>
+    <Dimension>
+      <Name>Пользователь</Name>
+      <Synonym>Пользователь</Synonym>
+      <Comment/>
+      <UUID>ad533add-3831-478c-bb7b-dc83278a437e</UUID>
+      <ValueType><v8:Type>cfg:CatalogRef.Пользователи</v8:Type><v8:TypeQualifiers><v8:Type>cfg:CatalogRef.Пользователи</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <Indexing>Index</Indexing>
+      <DataLockFields>Use</DataLockFields>
+    </Dimension>
+
+    <Attribute>
+      <Name>ДатаВремя</Name>
+      <Synonym>Дата/время</Synonym>
+      <Comment/>
+      <UUID>833da270-a378-4f27-94e4-de66ba4952c2</UUID>
+      <ValueType><v8:Type>xs:dateTime</v8:Type><v8:TypeQualifiers><v8:Type>xs:dateTime</v8:Type><v8:DateQualifiers><v8:DateFractions>DateTime</v8:DateFractions></v8:DateQualifiers></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <DataLockFields>DoNotLoad</DataLockFields>
+    </Attribute>
+
+    <Attribute>
+      <Name>Объект</Name>
+      <Synonym>Объект</Synonym>
+      <Comment/>
+      <UUID>f63789f2-0e02-4930-8fe0-1fa8694eb8b4</UUID>
+      <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <DataLockFields>DoNotLoad</DataLockFields>
+    </Attribute>
+
+    <Attribute>
+      <Name>Действие</Name>
+      <Synonym>Действие</Synonym>
+      <Comment/>
+      <UUID>29b40f90-1583-4fba-9f22-87e6c4f161a3</UUID>
+      <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <DataLockFields>DoNotLoad</DataLockFields>
+    </Attribute>
+
+    <Attribute>
+      <Name>СтароеЗначение</Name>
+      <Synonym>Старое значение</Synonym>
+      <Comment/>
+      <UUID>5bdb3504-b275-4bc6-ab98-7d413e46145a</UUID>
+      <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <DataLockFields>DoNotLoad</DataLockFields>
+    </Attribute>
+
+    <Attribute>
+      <Name>НовоеЗначение</Name>
+      <Synonym>Новое значение</Synonym>
+      <Comment/>
+      <UUID>f04275a7-bcd8-4dd9-ac35-aecd5394ee8e</UUID>
+      <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <DataLockFields>DoNotLoad</DataLockFields>
+    </Attribute>
+
+  </ChildObjects>
+</MetaDataObject>

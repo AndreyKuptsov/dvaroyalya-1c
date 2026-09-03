@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.3/sk" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/composition" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcsse="http://v8.1c.ru/8.1/data-composition-system/settings-options" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dataSource>
+    <DataSource>
+      <Name>DataSet</Name>
+      <Query>ВЫБРАТЬ
+	Загрузка.Аудитория КАК Аудитория,
+	СУММА(Загрузка.Часы) КАК Часы
+ИЗ
+	РегистрНакопления.ЗагрузкаАудиторий КАК Загрузка
+ГДЕ
+	Загрузка.Период МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
+СГРУППИРОВАТЬ ПО
+	Загрузка.Аудитория</Query>
+      <Field>
+        <Field><FieldPath>Аудитория</FieldPath><Title>Аудитория</Title></Field>
+        <Field><FieldPath>Часы</FieldPath><Title>Часы</Title></Field>
+      </Field>
+    </DataSource>
+    <Parameters>
+      <Parameter>
+        <Name>НачалоПериода</Name>
+        <Title>ДатаНачала</Title>
+        <ValueType><v8:Type>xs:dateTime</v8:Type></ValueType>
+      </Parameter>
+      <Parameter>
+        <Name>КонецПериода</Name>
+        <Title>ДатаОкончания</Title>
+        <ValueType><v8:Type>xs:dateTime</v8:Type></ValueType>
+      </Parameter>
+    </Parameters>
+  </dataSource>
+  <dataCompositionSchema>
+    <dataCompositionSchemas>
+      <dataCompositionSchema>
+        <Name>ОсновнаяСхема</Name>
+        <dataSet>
+          <dataSet>
+            <Name>DataSet</Name>
+            <Fields>
+              <Field><FieldPath>Аудитория</FieldPath></Field>
+            </Fields>
+          </dataSet>
+        </dataSet>
+        <dataParameters>
+          <dataParameter><Name>НачалоПериода</Name><Title>ДатаНачала</Title><Value xsi:type="xs:string">ДатаНачала, ДатаНачала</Value></dataParameter>
+          <dataParameter><Name>КонецПериода</Name><Title>ДатаОкончания</Title><Value xsi:type="xs:string">ДатаОкончания, ДатаОкончания</Value></dataParameter>
+        </dataParameters>
+        <template/>
+        <structure><structure xsi:type="structureStructure">
+          <group xsi:type="structureGroup"><Name>Аудитория</Name><Fields><Field><FieldPath>Аудитория</FieldPath></Field></Fields><structure><structure xsi:type="structureStructure"><group xsi:type="structureGroup"><Name>ДетальныеЗаписи</Name></group></structure></structure></group>
+          <group xsi:type="structureGroup"><Name>ДетальныеЗаписи</Name></group>
+        </structure>
+        </structure>
+        <settings>
+          <settings xsi:type="settingsSettings">
+            <selectionItems/>
+            <parametersValues><parametersValues><parametersValue><parameter>НачалоПериода</parameter><value xsi:type="xs:string">НачалоПериода</value></parametersValue></parametersValues></parametersValues>
+          </settings>
+        </settings>
+        <options/>
+      </dataCompositionSchema>
+    </dataCompositionSchemas>
+    <dataCompositionOptions><dataCompositionOptions><item><item><Name>ПараметрыДанных</Name></item><Value xsi:type="xs:string">Доступны</Value></item><item><item><Name>ОбычноеПредставление</Name></item><Value xsi:type="xs:string">Авто</Value></item></dataCompositionOptions></dataCompositionOptions>
+    <dataCompositionTemplates/>
+  </dataCompositionSchema>
+</DataCompositionSchema>

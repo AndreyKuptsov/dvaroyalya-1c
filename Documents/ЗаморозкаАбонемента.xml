@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+
+  <InternalInfo>
+    <xen:generator><xen:packageName>ДваРояля</xen:packageName></xen:generator>
+  </InternalInfo>
+  <Properties>
+    <Name>ЗаморозкаАбонемента</Name>
+    <Synonym>Заморозка абонемента</Synonym>
+    <Comment/>
+    <UseStandardCommands>true</UseStandardCommands>
+    <NumberType>Number</NumberType>
+    <NumberLength>11</NumberLength>
+    <NumberAllowedLength>Variable</NumberAllowedLength>
+    <NumberPeriodicity>Nonperiodical</NumberPeriodicity>
+    <DefaultNumberingType>Auto</DefaultNumberingType>
+    <CheckUnique>DontCheck</CheckUnique>
+    <Autonumbering>Auto</Autonumbering>
+    <Posting>Allow</Posting>
+    <RealTimePosting>Disallow</RealTimePosting>
+    <DefaultPostingMode>Operation</DefaultPostingMode>
+    <PostingModeForUnposted>Operation</PostingModeForUnposted>
+    <PostingInPrivilegedMode>false</PostingInPrivilegedMode>
+    <CreateOnInput>Use</CreateOnInput>
+    <FullTextSearch>Use</FullTextSearch>
+    <IncludeHelpInContents>true</IncludeHelpInContents>
+    <UseStandardCommandsInList>true</UseStandardCommandsInList>
+    <NumberPrefix>true</NumberPrefix>
+    <NumberPeriodicity>Nonperiodical</NumberPeriodicity>
+    <ObjectPresentation>Заморозка абонемента</ObjectPresentation>
+    <ExtendedObjectPresentation/>
+    <ListPresentation>Заморозка абонемента</ListPresentation>
+    <ExtendedListPresentation/>
+    <Explanation/>
+    <DefaultObjectForm>Document.ЗаморозкаАбонемента.ObjectForm</DefaultObjectForm>
+    <DefaultListForm>Document.ЗаморозкаАбонемента.ListForm</DefaultListForm>
+    <DefaultChoiceForm>Document.ЗаморозкаАбонемента.ChoiceForm</DefaultChoiceForm>
+    <DefaultListPresentation>Заморозка абонемента</DefaultListPresentation>
+    <WriteMode>Exchange</WriteMode>
+    <LengthLimitOnEnter>false</LengthLimitOnEnter>
+    <RegisterRecords>
+    </RegisterRecords>
+    <Post>false</Post>
+    <DataLockFields>
+    </DataLockFields>
+    <NumberAuto>true</NumberAuto>
+  </Properties>
+  <ChildObjects>
+    <Attribute>
+      <Name>Клиент</Name>
+      <Synonym>Клиент</Synonym>
+      <Comment/>
+      <UUID>c7649a34-6127-46bb-9648-9e55a898f9b9</UUID>
+      <ValueType><v8:Type>cfg:CatalogRef.Клиенты</v8:Type><v8:TypeQualifiers><v8:Type>cfg:CatalogRef.Клиенты</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>Абонемент</Name>
+      <Synonym>Абонемент</Synonym>
+      <Comment/>
+      <UUID>020e6cde-b7de-46bb-92ba-671813e3a8db</UUID>
+      <ValueType><v8:Type>cfg:CatalogRef.АбонементыКлиента</v8:Type><v8:TypeQualifiers><v8:Type>cfg:CatalogRef.АбонементыКлиента</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>ДатаНачала</Name>
+      <Synonym>Дата начала</Synonym>
+      <Comment/>
+      <UUID>2bb812b0-bee6-4956-bf24-3f19b9941958</UUID>
+      <ValueType><v8:Type>xs:dateTime</v8:Type><v8:TypeQualifiers><v8:Type>xs:dateTime</v8:Type><v8:DateQualifiers><v8:DateFractions>Date</v8:DateFractions></v8:DateQualifiers></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>ДатаОкончания</Name>
+      <Synonym>Дата окончания</Synonym>
+      <Comment/>
+      <UUID>0236494e-c30d-413b-89cb-eb9174b757cd</UUID>
+      <ValueType><v8:Type>xs:dateTime</v8:Type><v8:TypeQualifiers><v8:Type>xs:dateTime</v8:Type><v8:DateQualifiers><v8:DateFractions>Date</v8:DateFractions></v8:DateQualifiers></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>Причина</Name>
+      <Synonym>Причина</Synonym>
+      <Comment/>
+      <UUID>bad0dceb-b619-4611-ac8d-9b729b86f9a1</UUID>
+      <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+  </ChildObjects>
+</MetaDataObject>

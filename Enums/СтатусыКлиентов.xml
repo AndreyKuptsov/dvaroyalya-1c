@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+  <InternalInfo>
+    <xen:generator>
+      <xen:packageName>ДваРояля</xen:packageName>
+    </xen:generator>
+  </InternalInfo>
+  <Properties>
+    <Name>СтатусыКлиентов</Name>
+    <Synonym>Статусы клиентов</Synonym>
+    <Comment/>
+    <UUID>4b84e62b-9737-48d2-b26c-afa5de0b460e</UUID>
+    <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+    <BelongsToUnknownSection>false</BelongsToUnknownSection>
+    <Value>
+      <Name>Потенциальный</Name>
+      <Synonym>Потенциальный</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Активный</Name>
+      <Synonym>Активный</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Приостановлен</Name>
+      <Synonym>Приостановлен</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Архивный</Name>
+      <Synonym>Архивный</Synonym>
+      <Comment/>
+    </Value>
+  </Properties>
+</MetaDataObject>

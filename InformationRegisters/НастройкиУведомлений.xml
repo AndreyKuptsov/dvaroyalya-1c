@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+
+  <Properties>
+    <Name>НастройкиУведомлений</Name>
+    <Synonym>Настройки уведомлений</Synonym>
+    <Comment/>
+    <UUID>d743c1ee-bcb6-4099-976b-4d1f67b9b8d2</UUID>
+    <InformationRegisterPeriodicity>
+      <Type>Nonperiodical</Type>
+      <Frequency/>
+      <ShiftByDays>0</ShiftByDays>
+    </InformationRegisterPeriodicity>
+    <UseStandardCommands>true</UseStandardCommands>
+    <DataLockControlMode>Managed</DataLockControlMode>
+    <RegisterRecords>
+    </RegisterRecords>
+    <WriteMode>Exchange</WriteMode>
+    <DataVersioning>DontUse</DataVersioning>
+    <MainPresentation>Auto</MainPresentation>
+    <DefaultListForm>InformationRegister.НастройкиУведомлений.ListForm</DefaultListForm>
+    <DefaultChoiceForm>InformationRegister.НастройкиУведомлений.ChoiceForm</DefaultChoiceForm>
+  </Properties>
+  <ChildObjects>
+    <Dimension>
+      <Name>Клиент</Name>
+      <Synonym>Клиент</Synonym>
+      <Comment/>
+      <UUID>7e0bdca4-1aec-4934-b60b-56fc87297132</UUID>
+      <ValueType><v8:Type>cfg:CatalogRef.Клиенты</v8:Type><v8:TypeQualifiers><v8:Type>cfg:CatalogRef.Клиенты</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <Indexing>Index</Indexing>
+      <DataLockFields>Use</DataLockFields>
+    </Dimension>
+
+    <Resource>
+      <Name>Telegram</Name>
+      <Synonym>Telegram</Synonym>
+      <Comment/>
+      <UUID>265470f0-50ce-4457-a28e-f3773fedd7a4</UUID>
+      <ValueType><v8:Type>xs:boolean</v8:Type><v8:TypeQualifiers><v8:Type>xs:boolean</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <DataLockFields>Use</DataLockFields>
+    </Resource>
+
+    <Resource>
+      <Name>Email</Name>
+      <Synonym>Email</Synonym>
+      <Comment/>
+      <UUID>5cc87737-dcb9-45ad-b1e3-751a7658cf75</UUID>
+      <ValueType><v8:Type>xs:boolean</v8:Type><v8:TypeQualifiers><v8:Type>xs:boolean</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <DataLockFields>Use</DataLockFields>
+    </Resource>
+
+    <Resource>
+      <Name>SMS</Name>
+      <Synonym>SMS</Synonym>
+      <Comment/>
+      <UUID>39eebcd6-4cbe-4be9-b96c-5f34ab6bf2c9</UUID>
+      <ValueType><v8:Type>xs:boolean</v8:Type><v8:TypeQualifiers><v8:Type>xs:boolean</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <DataLockFields>Use</DataLockFields>
+    </Resource>
+
+    <Attribute>
+      <Name>Канал</Name>
+      <Synonym>Канал</Synonym>
+      <Comment/>
+      <UUID>f20f5e00-c31d-4815-809f-7750e5393b04</UUID>
+      <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <DataLockFields>DoNotLoad</DataLockFields>
+    </Attribute>
+
+  </ChildObjects>
+</MetaDataObject>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+
+  <InternalInfo>
+    <xen:generator><xen:packageName>ДваРояля</xen:packageName></xen:generator>
+  </InternalInfo>
+  <Properties>
+    <Name>ОтменаЗанятия</Name>
+    <Synonym>Отмена занятия</Synonym>
+    <Comment/>
+    <UseStandardCommands>true</UseStandardCommands>
+    <NumberType>Number</NumberType>
+    <NumberLength>11</NumberLength>
+    <NumberAllowedLength>Variable</NumberAllowedLength>
+    <NumberPeriodicity>Nonperiodical</NumberPeriodicity>
+    <DefaultNumberingType>Auto</DefaultNumberingType>
+    <CheckUnique>DontCheck</CheckUnique>
+    <Autonumbering>Auto</Autonumbering>
+    <Posting>Allow</Posting>
+    <RealTimePosting>Disallow</RealTimePosting>
+    <DefaultPostingMode>Operation</DefaultPostingMode>
+    <PostingModeForUnposted>Operation</PostingModeForUnposted>
+    <PostingInPrivilegedMode>false</PostingInPrivilegedMode>
+    <CreateOnInput>Use</CreateOnInput>
+    <FullTextSearch>Use</FullTextSearch>
+    <IncludeHelpInContents>true</IncludeHelpInContents>
+    <UseStandardCommandsInList>true</UseStandardCommandsInList>
+    <NumberPrefix>true</NumberPrefix>
+    <NumberPeriodicity>Nonperiodical</NumberPeriodicity>
+    <ObjectPresentation>Отмена занятия</ObjectPresentation>
+    <ExtendedObjectPresentation/>
+    <ListPresentation>Отмена занятия</ListPresentation>
+    <ExtendedListPresentation/>
+    <Explanation/>
+    <DefaultObjectForm>Document.ОтменаЗанятия.ObjectForm</DefaultObjectForm>
+    <DefaultListForm>Document.ОтменаЗанятия.ListForm</DefaultListForm>
+    <DefaultChoiceForm>Document.ОтменаЗанятия.ChoiceForm</DefaultChoiceForm>
+    <DefaultListPresentation>Отмена занятия</DefaultListPresentation>
+    <WriteMode>Exchange</WriteMode>
+    <LengthLimitOnEnter>false</LengthLimitOnEnter>
+    <RegisterRecords>
+    </RegisterRecords>
+    <Post>false</Post>
+    <DataLockFields>
+    </DataLockFields>
+    <NumberAuto>true</NumberAuto>
+  </Properties>
+  <ChildObjects>
+    <Attribute>
+      <Name>Занятие</Name>
+      <Synonym>Занятие</Synonym>
+      <Comment/>
+      <UUID>62740de7-71e9-4b6d-ba59-2f81173b315e</UUID>
+      <ValueType><v8:Type>cfg:DocumentRef.Занятие</v8:Type><v8:TypeQualifiers><v8:Type>cfg:DocumentRef.Занятие</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>Причина</Name>
+      <Synonym>Причина</Synonym>
+      <Comment/>
+      <UUID>bad0dceb-b619-4611-ac8d-9b729b86f9a1</UUID>
+      <ValueType><v8:Type>cfg:EnumRef.ПричиныОтмены</v8:Type><v8:TypeQualifiers><v8:Type>cfg:EnumRef.ПричиныОтмены</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>ДатаОтмены</Name>
+      <Synonym>Дата отмены</Synonym>
+      <Comment/>
+      <UUID>893d2ef0-d179-4a44-9362-bd83ee0e5cd6</UUID>
+      <ValueType><v8:Type>xs:dateTime</v8:Type><v8:TypeQualifiers><v8:Type>xs:dateTime</v8:Type><v8:DateQualifiers><v8:DateFractions>DateTime</v8:DateFractions></v8:DateQualifiers></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>СписыватьЗанятие</Name>
+      <Synonym>Списывать занятие</Synonym>
+      <Comment/>
+      <UUID>e1bf7430-4e6d-4277-9a66-85874ab7bae1</UUID>
+      <ValueType><v8:Type>xs:boolean</v8:Type><v8:TypeQualifiers><v8:Type>xs:boolean</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>ВозвращатьЗанятие</Name>
+      <Synonym>Возвращать занятие на баланс</Synonym>
+      <Comment/>
+      <UUID>7716f831-7418-4673-ac9f-325626cfc0d3</UUID>
+      <ValueType><v8:Type>xs:boolean</v8:Type><v8:TypeQualifiers><v8:Type>xs:boolean</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>ВозвращатьОплату</Name>
+      <Synonym>Возвращать оплату</Synonym>
+      <Comment/>
+      <UUID>ef0d77f9-c88b-4190-b6cb-0feba702198c</UUID>
+      <ValueType><v8:Type>xs:boolean</v8:Type><v8:TypeQualifiers><v8:Type>xs:boolean</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>Комментарий</Name>
+      <Synonym>Комментарий</Synonym>
+      <Comment/>
+      <UUID>19696dcf-6a55-4904-88aa-26e330de0bc2</UUID>
+      <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+  </ChildObjects>
+</MetaDataObject>

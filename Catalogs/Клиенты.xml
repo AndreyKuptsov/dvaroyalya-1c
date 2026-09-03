@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+
+  <InternalInfo>
+    <xen:generator><xen:packageName>ДваРояля</xen:packageName></xen:generator>
+  </InternalInfo>
+  <Properties>
+    <Name>Клиенты</Name>
+    <Synonym>Клиенты</Synonym>
+    <Comment/>
+    <SynonymCode>Код</SynonymCode>
+    <CommentCode/>
+    <DefaultCodeLength>9</DefaultCodeLength>
+    <CodeType>Number</CodeType>
+    <CodeAllowedLength>Variable</CodeAllowedLength>
+    <CodeSeries>WholeCatalog</CodeSeries>
+    <CheckUnique>DontCheck</CheckUnique>
+    <Autonumbering>Auto</Autonumbering>
+    <DefaultPresentation>AsSynonyms</DefaultPresentation>
+    <Explanation/>
+    <CreateOnInput>Use</CreateOnInput>
+    <Hierarchical>false</Hierarchical>
+    <Predefined>false</Predefined>
+    <Owner>None</Owner>
+    <IncludeHelpInContents>true</IncludeHelpInContents>
+    <FoldersOnTop>true</FoldersOnTop>
+    <UseStandardCommands>true</UseStandardCommands>
+    <ChoiceMode>BothWays</ChoiceMode>
+    <DescriptionLength>0</DescriptionLength>
+    <CodeLength>9</CodeLength>
+    <DefaultObjectForm>Catalog.Клиенты.ObjectForm</DefaultObjectForm>
+    <DefaultListForm>Catalog.Клиенты.ListForm</DefaultListForm>
+    <DefaultChoiceForm>Catalog.Клиенты.ChoiceForm</DefaultChoiceForm>
+    <DefaultListPresentation>Клиенты</DefaultListPresentation>
+    <DefaultFolderPresentation>Папка</DefaultFolderPresentation>
+    <UseStandardCommandsInList>true</UseStandardCommandsInList>
+    <NamePrefixes/>
+    <DataLockControlMode>Managed</DataLockControlMode>
+    <FullTextSearch>Use</FullTextSearch>
+    <ObjectPresentation>Клиенты</ObjectPresentation>
+    <ExtendedObjectPresentation/>
+    <ListPresentation>Клиенты</ListPresentation>
+    <ExtendedListPresentation/>
+    <ExplanationList/>
+    <CreateOnInputChoice>Auto</CreateOnInputChoice>
+    <DataHistory>DontUse</DataHistory>
+    <EditType>InDialog</EditType>
+    <ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+    <VersioningData>DoNotUse</VersioningData>
+    <Characteristics>false</Characteristics>
+    <StandardAttributes>
+      <StandardAttribute>
+        <Name>Code</Name>
+        <Synonym>Код</Synonym>
+        <Comment/>
+        <UUID>a958a920-3a30-4110-a50a-bb475698ab1a</UUID>
+        <IsEnabled>true</IsEnabled>
+        <DataHistory>DontUse</DataHistory>
+        <FullTextSearch>Use</FullTextSearch>
+      </StandardAttribute>
+    </StandardAttributes>
+    <Templates>
+      <Template>
+        <Name>ПечатьПреподавателей</Name>
+        <Comment/>
+        <UUID>9b01ad56-dcd4-4f98-bcb1-7e75c2044e2d</UUID>
+        <Type>SpreadsheetDocument</Type>
+        <FileName>ПечатьПреподавателей</FileName>
+      </Template>
+    </Templates>
+    <WriteMode>Exchange</WriteMode>
+    <SubordinationUse>NotUse</SubordinationUse>
+    <DataLockFields>
+    </DataLockFields>
+  </Properties>
+  <ChildObjects>
+    <Attribute>
+      <Name>ДатаРождения</Name>
+      <Synonym>Дата рождения</Synonym>
+      <Comment></Comment>
+      <UUID>baf0e9b7-c7dd-4fae-9ea4-24bf1fcae7e8</UUID>
+      <ValueType><v8:Type>xs:dateTime</v8:Type><v8:TypeQualifiers><v8:Type>xs:dateTime</v8:Type><v8:DateQualifiers><v8:DateFractions>Date</v8:DateFractions></v8:DateQualifiers></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>Телефон</Name>
+      <Synonym>Телефон</Synonym>
+      <Comment></Comment>
+      <UUID>ca22535c-5e2c-4daa-8558-67b76c9a6acd</UUID>
+      <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>Email</Name>
+      <Synonym>Email</Synonym>
+      <Comment></Comment>
+      <UUID>9dedefe5-8938-4274-968f-bad1dff973a3</UUID>
+      <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>Telegram</Name>
+      <Synonym>Telegram</Synonym>
+      <Comment></Comment>
+      <UUID>19a85f1d-e72d-4d0f-a3f2-6307cadc1a20</UUID>
+      <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>TelegramID</Name>
+      <Synonym>Telegram ID</Synonym>
+      <Comment></Comment>
+      <UUID>c2ade6e5-9dce-4476-a1ac-361ab96d58c4</UUID>
+      <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>Комментарий</Name>
+      <Synonym>Комментарий</Synonym>
+      <Comment></Comment>
+      <UUID>b69eca26-edfb-43fa-8681-4209251cd6ed</UUID>
+      <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>ДатаРегистрации</Name>
+      <Synonym>Дата регистрации</Synonym>
+      <Comment></Comment>
+      <UUID>2055ab77-8417-4b6a-b660-4c8c7201eb4e</UUID>
+      <ValueType><v8:Type>xs:dateTime</v8:Type><v8:TypeQualifiers><v8:Type>xs:dateTime</v8:Type><v8:DateQualifiers><v8:DateFractions>Date</v8:DateFractions></v8:DateQualifiers></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>СтатусКлиента</Name>
+      <Synonym>Статус клиента</Synonym>
+      <Comment></Comment>
+      <UUID>2a29875a-8583-4149-9b9f-ed90c7f1e099</UUID>
+      <ValueType><v8:Type>cfg:EnumRef.СтатусыКлиентов</v8:Type><v8:TypeQualifiers><v8:Type>cfg:EnumRef.СтатусыКлиентов</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>ИсточникПривлечения</Name>
+      <Synonym>Источник привлечения</Synonym>
+      <Comment></Comment>
+      <UUID>74d5324c-69ad-4ddf-ad41-8d1ab5917b41</UUID>
+      <ValueType><v8:Type>cfg:EnumRef.ИсточникиПривлечения</v8:Type><v8:TypeQualifiers><v8:Type>cfg:EnumRef.ИсточникиПривлечения</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>ОтветственныйМенеджер</Name>
+      <Synonym>Ответственный менеджер</Synonym>
+      <Comment></Comment>
+      <UUID>e62972a8-220b-4430-baae-068b8be40903</UUID>
+      <ValueType><v8:Type>cfg:CatalogRef.Пользователи</v8:Type><v8:TypeQualifiers><v8:Type>cfg:CatalogRef.Пользователи</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>СогласиеНаУведомления</Name>
+      <Synonym>Согласие на получение уведомлений</Synonym>
+      <Comment></Comment>
+      <UUID>e8c90549-2669-43b7-8f27-f292f83635cf</UUID>
+      <ValueType><v8:Type>xs:boolean</v8:Type><v8:TypeQualifiers><v8:Type>xs:boolean</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>СогласиеНаОбработкуДанных</Name>
+      <Synonym>Согласие на обработку персональных данных</Synonym>
+      <Comment></Comment>
+      <UUID>33bd5d5d-96a2-44bf-819f-789136f36816</UUID>
+      <ValueType><v8:Type>xs:boolean</v8:Type><v8:TypeQualifiers><v8:Type>xs:boolean</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+  </ChildObjects>
+</MetaDataObject>

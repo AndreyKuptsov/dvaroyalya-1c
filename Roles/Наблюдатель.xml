@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+
+  <Properties>
+    <Name>Наблюдатель</Name>
+    <Synonym>Наблюдатель</Synonym>
+    <Comment/>
+    <UUID>e384ecc8-58a4-4d1d-bda0-4f0092eeba5e</UUID>
+    <DataHistory>DontUse</DataHistory>
+  </Properties>
+  <ChildObjects>
+    <Catalog>
+      <CatalogRef><Name>Клиенты</Name></CatalogRef>
+      <CatalogRights>
+    <Right><Name>Read</Name><Value><Access>Read</Access></Value></Right>
+
+      </CatalogRights>
+    </Catalog>
+    <Catalog>
+      <CatalogRef><Name>Преподаватели</Name></CatalogRef>
+      <CatalogRights>
+    <Right><Name>Read</Name><Value><Access>Read</Access></Value></Right>
+
+      </CatalogRights>
+    </Catalog>
+    <Catalog>
+      <CatalogRef><Name>Направления</Name></CatalogRef>
+      <CatalogRights>
+    <Right><Name>Read</Name><Value><Access>Read</Access></Value></Right>
+
+      </CatalogRights>
+    </Catalog>
+    <Catalog>
+      <CatalogRef><Name>Аудитории</Name></CatalogRef>
+      <CatalogRights>
+    <Right><Name>Read</Name><Value><Access>Read</Access></Value></Right>
+
+      </CatalogRights>
+    </Catalog>
+    <Catalog>
+      <CatalogRef><Name>Абонементы</Name></CatalogRef>
+      <CatalogRights>
+    <Right><Name>Read</Name><Value><Access>Read</Access></Value></Right>
+
+      </CatalogRights>
+    </Catalog>
+    <Catalog>
+      <CatalogRef><Name>АбонементыКлиента</Name></CatalogRef>
+      <CatalogRights>
+    <Right><Name>Read</Name><Value><Access>Read</Access></Value></Right>
+
+      </CatalogRights>
+    </Catalog>
+    <InformationRegister>
+      <InformationRegisterRef><Name>РасписаниеПреподавателей</Name></InformationRegisterRef>
+      <InformationRegisterRights>
+    <Right><Name>Read</Name><Value><Access>Read</Access></Value></Right>
+
+      </InformationRegisterRights>
+    </InformationRegister>
+    <InformationRegister>
+      <InformationRegisterRef><Name>ДоступностьАудиторий</Name></InformationRegisterRef>
+      <InformationRegisterRights>
+    <Right><Name>Read</Name><Value><Access>Read</Access></Value></Right>
+
+      </InformationRegisterRights>
+    </InformationRegister>
+    <AccumulationRegister>
+      <AccumulationRegisterRef><Name>Посещения</Name></AccumulationRegisterRef>
+      <AccumulationRegisterRights>
+    <Right><Name>Read</Name><Value><Access>Read</Access></Value></Right>
+
+      </AccumulationRegisterRights>
+    </AccumulationRegister>
+    <AccumulationRegister>
+      <AccumulationRegisterRef><Name>Оплаты</Name></AccumulationRegisterRef>
+      <AccumulationRegisterRights>
+    <Right><Name>Read</Name><Value><Access>Read</Access></Value></Right>
+
+      </AccumulationRegisterRights>
+    </AccumulationRegister>
+    <AccumulationRegister>
+      <AccumulationRegisterRef><Name>ОстаткиАбонементов</Name></AccumulationRegisterRef>
+      <AccumulationRegisterRights>
+    <Right><Name>Read</Name><Value><Access>Read</Access></Value></Right>
+
+      </AccumulationRegisterRights>
+    </AccumulationRegister>
+    <Report>
+      <ReportRef><Name>Расписание</Name></ReportRef>
+      <ReportRights>
+    <Right><Name>View</Name><Value><Access>Read</Access></Value></Right>
+
+      </ReportRights>
+    </Report>
+    <Report>
+      <ReportRef><Name>Посещаемость</Name></ReportRef>
+      <ReportRights>
+    <Right><Name>View</Name><Value><Access>Read</Access></Value></Right>
+
+      </ReportRights>
+    </Report>
+    <Report>
+      <ReportRef><Name>Продажи</Name></ReportRef>
+      <ReportRights>
+    <Right><Name>View</Name><Value><Access>Read</Access></Value></Right>
+
+      </ReportRights>
+    </Report>
+    <Report>
+      <ReportRef><Name>ЗагрузкаПреподавателей</Name></ReportRef>
+      <ReportRights>
+    <Right><Name>View</Name><Value><Access>Read</Access></Value></Right>
+
+      </ReportRights>
+    </Report>
+    <Report>
+      <ReportRef><Name>ЗагрузкаАудиторий</Name></ReportRef>
+      <ReportRights>
+    <Right><Name>View</Name><Value><Access>Read</Access></Value></Right>
+
+      </ReportRights>
+    </Report>
+    <CommonModule>
+      <CommonModuleRef><Name>ПараметрыСеанса</Name></CommonModuleRef>
+      <CommonModuleRights>
+    <Right><Name>Client</Name><Value><Access>Read</Access></Value></Right>
+
+    <Right><Name>Server</Name><Value><Access>Read</Access></Value></Right>
+
+      </CommonModuleRights>
+    </CommonModule>
+  </ChildObjects>
+</MetaDataObject>

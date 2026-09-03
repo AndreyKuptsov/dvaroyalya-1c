@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+  <InternalInfo>
+    <xen:generator>
+      <xen:packageName>ДваРояля</xen:packageName>
+    </xen:generator>
+  </InternalInfo>
+  <Properties>
+    <Name>СтатусыИнструмента</Name>
+    <Synonym>Статусы инструмента</Synonym>
+    <Comment/>
+    <UUID>9124d028-c671-4f89-8fba-1827f172920f</UUID>
+    <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+    <BelongsToUnknownSection>false</BelongsToUnknownSection>
+    <Value>
+      <Name>Доступен</Name>
+      <Synonym>Доступен</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Забронирован</Name>
+      <Synonym>Забронирован</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>ВРемонте</Name>
+      <Synonym>В ремонте</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Списан</Name>
+      <Synonym>Списан</Synonym>
+      <Comment/>
+    </Value>
+  </Properties>
+</MetaDataObject>

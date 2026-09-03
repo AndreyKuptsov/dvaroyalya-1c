@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+  <autoTitle>true</autoTitle>
+  <autoTitleSet>true</autoTitleSet>
+  <type>Managed</type>
+  <Extensions/>
+  <Attributes>
+    <Attribute name="ОбработкаОбъект">
+      <Types><Type>cfg:DataProcessorObject.Уведомления</Type></Types>
+      <MainAttribute>true</MainAttribute>
+      <SavedData>true</SavedData>
+    </Attribute>
+  </Attributes>
+  <ChildItems>
+    <FormField name="Сообщение" horizontalStretch="true"><DataPath>ОбработкаОбъект.Сообщение</DataPath><Type>InputField</Type><Title>Сообщение</Title><TitleLocation>Top</TitleLocation></FormField>
+    <FormField name="ПользователиПолучатели" horizontalStretch="true"><DataPath>ОбработкаОбъект.ПользователиПолучатели</DataPath><Type>InputField</Type><Title>Получатели</Title><TitleLocation>Top</TitleLocation></FormField>
+    <FormField name="ОтправлятьВTelegram" horizontalStretch="true"><DataPath>ОбработкаОбъект.ОтправлятьВTelegram</DataPath><Type>CheckBox</Type><Title>Отправлять в Telegram</Title><TitleLocation>Top</TitleLocation></FormField>
+    <Button name="Выполнить" type="CommandBar">
+      <CommandName>Form.Command.Выполнить</CommandName>
+      <Type>Button</Type><Title>Выполнить</Title>
+    </Button>
+  </ChildItems>
+  <Commands>
+    <Command name="Выполнить"><Title>Выполнить</Title><Action>Выполнить</Action></Command>
+  </Commands>
+  <Parameters/>
+  <EventHandlers><EventHandler event="Выполнить" name="Выполнить"><Action>Выполнить</Action></EventHandler></EventHandlers>
+  <ExtendedAttributes/>
+  <FormAttributes/>
+  <CommandInterface/>
+  <FormDependencies/>
+  <FormExtensions>
+    <FormExtension><Module></Module></FormExtension>
+  </FormExtensions>
+</Form>

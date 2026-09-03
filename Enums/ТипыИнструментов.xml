@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+  <InternalInfo>
+    <xen:generator>
+      <xen:packageName>ДваРояля</xen:packageName>
+    </xen:generator>
+  </InternalInfo>
+  <Properties>
+    <Name>ТипыИнструментов</Name>
+    <Synonym>Типы инструментов</Synonym>
+    <Comment/>
+    <UUID>397b848d-afcf-449b-acb4-5a57c24ed50d</UUID>
+    <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+    <BelongsToUnknownSection>false</BelongsToUnknownSection>
+    <Value>
+      <Name>Рояль</Name>
+      <Synonym>Рояль</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Фортепиано</Name>
+      <Synonym>Фортепиано</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>ЭлектронноеФортепиано</Name>
+      <Synonym>Электронное фортепиано</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Гитара</Name>
+      <Synonym>Гитара</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Баян</Name>
+      <Synonym>Баян</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Аккордеон</Name>
+      <Synonym>Аккордеон</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Домра</Name>
+      <Synonym>Домра</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Скрипка</Name>
+      <Synonym>Скрипка</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Орган</Name>
+      <Synonym>Орган</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Другое</Name>
+      <Synonym>Другое</Synonym>
+      <Comment/>
+    </Value>
+  </Properties>
+</MetaDataObject>

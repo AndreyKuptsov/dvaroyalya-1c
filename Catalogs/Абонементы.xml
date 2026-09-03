@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+
+  <InternalInfo>
+    <xen:generator><xen:packageName>ДваРояля</xen:packageName></xen:generator>
+  </InternalInfo>
+  <Properties>
+    <Name>Абонементы</Name>
+    <Synonym>Абонементы</Synonym>
+    <Comment/>
+    <SynonymCode>Код</SynonymCode>
+    <CommentCode/>
+    <DefaultCodeLength>9</DefaultCodeLength>
+    <CodeType>Number</CodeType>
+    <CodeAllowedLength>Variable</CodeAllowedLength>
+    <CodeSeries>WholeCatalog</CodeSeries>
+    <CheckUnique>DontCheck</CheckUnique>
+    <Autonumbering>Auto</Autonumbering>
+    <DefaultPresentation>AsSynonyms</DefaultPresentation>
+    <Explanation/>
+    <CreateOnInput>Use</CreateOnInput>
+    <Hierarchical>false</Hierarchical>
+    <Predefined>false</Predefined>
+    <Owner>None</Owner>
+    <IncludeHelpInContents>true</IncludeHelpInContents>
+    <FoldersOnTop>true</FoldersOnTop>
+    <UseStandardCommands>true</UseStandardCommands>
+    <ChoiceMode>BothWays</ChoiceMode>
+    <DescriptionLength>0</DescriptionLength>
+    <CodeLength>9</CodeLength>
+    <DefaultObjectForm>Catalog.Абонементы.ObjectForm</DefaultObjectForm>
+    <DefaultListForm>Catalog.Абонементы.ListForm</DefaultListForm>
+    <DefaultChoiceForm>Catalog.Абонементы.ChoiceForm</DefaultChoiceForm>
+    <DefaultListPresentation>Абонементы</DefaultListPresentation>
+    <DefaultFolderPresentation>Папка</DefaultFolderPresentation>
+    <UseStandardCommandsInList>true</UseStandardCommandsInList>
+    <NamePrefixes/>
+    <DataLockControlMode>Managed</DataLockControlMode>
+    <FullTextSearch>Use</FullTextSearch>
+    <ObjectPresentation>Абонементы</ObjectPresentation>
+    <ExtendedObjectPresentation/>
+    <ListPresentation>Абонементы</ListPresentation>
+    <ExtendedListPresentation/>
+    <ExplanationList/>
+    <CreateOnInputChoice>Auto</CreateOnInputChoice>
+    <DataHistory>DontUse</DataHistory>
+    <EditType>InDialog</EditType>
+    <ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+    <VersioningData>DoNotUse</VersioningData>
+    <Characteristics>false</Characteristics>
+    <StandardAttributes>
+      <StandardAttribute>
+        <Name>Code</Name>
+        <Synonym>Код</Synonym>
+        <Comment/>
+        <UUID>1bd667c9-2ec8-4703-a906-048bc411b448</UUID>
+        <IsEnabled>true</IsEnabled>
+        <DataHistory>DontUse</DataHistory>
+        <FullTextSearch>Use</FullTextSearch>
+      </StandardAttribute>
+    </StandardAttributes>
+    <Templates>
+      <Template>
+        <Name>ПечатьПреподавателей</Name>
+        <Comment/>
+        <UUID>8d7b4039-76b3-45bb-bef0-30f706925ad2</UUID>
+        <Type>SpreadsheetDocument</Type>
+        <FileName>ПечатьПреподавателей</FileName>
+      </Template>
+    </Templates>
+    <WriteMode>Exchange</WriteMode>
+    <SubordinationUse>NotUse</SubordinationUse>
+    <DataLockFields>
+    </DataLockFields>
+  </Properties>
+  <ChildObjects>
+    <Attribute>
+      <Name>КоличествоЗанятий</Name>
+      <Synonym>Количество занятий</Synonym>
+      <Comment></Comment>
+      <UUID>bc797233-a03b-48e3-a18d-1abddc34d431</UUID>
+      <ValueType><v8:Type>xs:decimal</v8:Type><v8:Qualifiers><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Precision>15</v8:Precision><v8:Scale>0</v8:Scale></v8:NumberQualifiers></v8:Qualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>СрокДействия</Name>
+      <Synonym>Срок действия (дней)</Synonym>
+      <Comment></Comment>
+      <UUID>670e4d5e-2278-425f-a2b7-0947b9f6af6f</UUID>
+      <ValueType><v8:Type>xs:decimal</v8:Type><v8:Qualifiers><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Precision>10</v8:Precision><v8:Scale>0</v8:Scale></v8:NumberQualifiers></v8:Qualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>Стоимость</Name>
+      <Synonym>Стоимость</Synonym>
+      <Comment></Comment>
+      <UUID>fd2e960d-dc2e-4fb8-a0c2-4f6e01785786</UUID>
+      <ValueType><v8:Type>xs:decimal</v8:Type><v8:Qualifiers><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Precision>15</v8:Precision><v8:Scale>2</v8:Scale></v8:NumberQualifiers></v8:Qualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>Направление</Name>
+      <Synonym>Направление</Synonym>
+      <Comment></Comment>
+      <UUID>657d8ab7-bd57-4426-b291-cb5592bf7a5f</UUID>
+      <ValueType><v8:Type>cfg:CatalogRef.Направления</v8:Type><v8:TypeQualifiers><v8:Type>cfg:CatalogRef.Направления</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>ДлительностьЗанятия</Name>
+      <Synonym>Длительность занятия (мин)</Synonym>
+      <Comment></Comment>
+      <UUID>050152bc-8a6c-4e22-8b0c-8a232941cf4a</UUID>
+      <ValueType><v8:Type>xs:decimal</v8:Type><v8:Qualifiers><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Precision>3</v8:Precision><v8:Scale>0</v8:Scale></v8:NumberQualifiers></v8:Qualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>ВозможностьЗаморозки</Name>
+      <Synonym>Возможность заморозки</Synonym>
+      <Comment></Comment>
+      <UUID>112c40fc-57fc-40f0-bb87-ed6f9e68d8e9</UUID>
+      <ValueType><v8:Type>xs:boolean</v8:Type><v8:TypeQualifiers><v8:Type>xs:boolean</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>МаксимальныйСрокЗаморозки</Name>
+      <Synonym>Максимальный срок заморозки (дней)</Synonym>
+      <Comment></Comment>
+      <UUID>a4b9f34a-2052-405d-b883-67c46b330a53</UUID>
+      <ValueType><v8:Type>xs:decimal</v8:Type><v8:Qualifiers><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Precision>10</v8:Precision><v8:Scale>0</v8:Scale></v8:NumberQualifiers></v8:Qualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>КоличествоПереносов</Name>
+      <Synonym>Количество переносов</Synonym>
+      <Comment></Comment>
+      <UUID>19466731-becb-4a87-8b8b-a1b97d801207</UUID>
+      <ValueType><v8:Type>xs:decimal</v8:Type><v8:Qualifiers><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Precision>3</v8:Precision><v8:Scale>0</v8:Scale></v8:NumberQualifiers></v8:Qualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>Филиал</Name>
+      <Synonym>Филиал</Synonym>
+      <Comment></Comment>
+      <UUID>fd84b10f-a5e4-4b50-a174-c8d33ee6c2c3</UUID>
+      <ValueType><v8:Type>cfg:EnumRef.Филиалы</v8:Type><v8:TypeQualifiers><v8:Type>cfg:EnumRef.Филиалы</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>Активность</Name>
+      <Synonym>Активность</Synonym>
+      <Comment></Comment>
+      <UUID>feda67df-6a37-4e98-872a-9c5d23cb9f2a</UUID>
+      <ValueType><v8:Type>xs:boolean</v8:Type><v8:TypeQualifiers><v8:Type>xs:boolean</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+  </ChildObjects>
+</MetaDataObject>

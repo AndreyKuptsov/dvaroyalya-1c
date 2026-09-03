@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.3/sk" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/composition" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcsse="http://v8.1c.ru/8.1/data-composition-system/settings-options" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dataSource>
+    <DataSource>
+      <Name>DataSet</Name>
+      <Query>ВЫБРАТЬ
+	Оплаты.Клиент КАК Клиент,
+	СУММА(ВЫБОР КОГДА Оплаты.Назначение = ЗНАЧЕНИЕ(Перечисление.ВидыОперацийОплат.Возврат)
+		ТОГДА -Оплаты.Сумма ИНАЧЕ Оплаты.Сумма КОНЕЦ) КАК Оплачено
+ИЗ
+	РегистрНакопления.Оплаты КАК Оплаты
+СГРУППИРОВАТЬ ПО
+	Оплаты.Клиент
+ИМЕЮЩИЕ
+	СУММА(ВЫБОР КОГДА Оплаты.Назначение = ЗНАЧЕНИЕ(Перечисление.ВидыОперацийОплат.Возврат)
+		ТОГДА -Оплаты.Сумма ИНАЧЕ Оплаты.Сумма КОНЕЦ) &lt; 0</Query>
+      <Field>
+        <Field><FieldPath>Клиент</FieldPath><Title>Клиент</Title></Field>
+        <Field><FieldPath>Оплачено</FieldPath><Title>Оплачено</Title></Field>
+      </Field>
+    </DataSource>
+  </dataSource>
+  <dataCompositionSchema>
+    <dataCompositionSchemas>
+      <dataCompositionSchema>
+        <Name>ОсновнаяСхема</Name>
+        <dataSet>
+          <dataSet>
+            <Name>DataSet</Name>
+            <Fields>
+              <Field><FieldPath>Клиент</FieldPath></Field>
+            </Fields>
+          </dataSet>
+        </dataSet>
+        <dataParameters>
+        </dataParameters>
+        <template/>
+        <structure><structure xsi:type="structureStructure">
+          <group xsi:type="structureGroup"><Name>Клиент</Name><Fields><Field><FieldPath>Клиент</FieldPath></Field></Fields><structure><structure xsi:type="structureStructure"><group xsi:type="structureGroup"><Name>ДетальныеЗаписи</Name></group></structure></structure></group>
+          <group xsi:type="structureGroup"><Name>ДетальныеЗаписи</Name></group>
+        </structure>
+        </structure>
+        <settings>
+          <settings xsi:type="settingsSettings">
+            <selectionItems/>
+            <parametersValues><parametersValues><parametersValue><parameter>НачалоПериода</parameter><value xsi:type="xs:string">НачалоПериода</value></parametersValue></parametersValues></parametersValues>
+          </settings>
+        </settings>
+        <options/>
+      </dataCompositionSchema>
+    </dataCompositionSchemas>
+    <dataCompositionOptions><dataCompositionOptions><item><item><Name>ПараметрыДанных</Name></item><Value xsi:type="xs:string">Доступны</Value></item><item><item><Name>ОбычноеПредставление</Name></item><Value xsi:type="xs:string">Авто</Value></item></dataCompositionOptions></dataCompositionOptions>
+    <dataCompositionTemplates/>
+  </dataCompositionSchema>
+</DataCompositionSchema>

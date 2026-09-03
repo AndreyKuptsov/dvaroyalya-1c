@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+
+  <Properties>
+    <Name>ИмпортДанных</Name>
+    <Synonym>Импорт данных</Synonym>
+    <Comment/>
+    <UUID>dc4b5ee7-2ce0-4447-9f1c-20dad02a8e13</UUID>
+    <UseStandardCommands>true</UseStandardCommands>
+    <DefaultForm>DataProcessor.ИмпортДанных.Form</DefaultForm>
+  </Properties>
+  <ChildObjects>
+    <Attribute>
+      <Name>ФайлДанных</Name>
+      <Synonym>Файл данных</Synonym>
+      <Comment/>
+      <UUID>cb2842c7-2adb-4147-9e62-296ee65601d7</UUID>
+      <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>ТипДанных</Name>
+      <Synonym>Тип данных</Synonym>
+      <Comment/>
+      <UUID>bb5fdf0e-1444-433f-8449-124ff4456f69</UUID>
+      <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>ВыполнятьПроверку</Name>
+      <Synonym>Выполнять проверку</Synonym>
+      <Comment/>
+      <UUID>e00f4104-0c30-4293-bfca-4211733a5e04</UUID>
+      <ValueType><v8:Type>xs:boolean</v8:Type><v8:TypeQualifiers><v8:Type>xs:boolean</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+  </ChildObjects>
+</MetaDataObject>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+
+  <InternalInfo>
+    <xen:generator><xen:packageName>ДваРояля</xen:packageName></xen:generator>
+  </InternalInfo>
+  <Properties>
+    <Name>СпособыОплаты</Name>
+    <Synonym>Способы оплаты</Synonym>
+    <Comment/>
+    <SynonymCode>Код</SynonymCode>
+    <CommentCode/>
+    <DefaultCodeLength>9</DefaultCodeLength>
+    <CodeType>Number</CodeType>
+    <CodeAllowedLength>Variable</CodeAllowedLength>
+    <CodeSeries>WholeCatalog</CodeSeries>
+    <CheckUnique>DontCheck</CheckUnique>
+    <Autonumbering>Auto</Autonumbering>
+    <DefaultPresentation>AsSynonyms</DefaultPresentation>
+    <Explanation/>
+    <CreateOnInput>Use</CreateOnInput>
+    <Hierarchical>false</Hierarchical>
+    <Predefined>false</Predefined>
+    <Owner>None</Owner>
+    <IncludeHelpInContents>true</IncludeHelpInContents>
+    <FoldersOnTop>true</FoldersOnTop>
+    <UseStandardCommands>true</UseStandardCommands>
+    <ChoiceMode>BothWays</ChoiceMode>
+    <DescriptionLength>0</DescriptionLength>
+    <CodeLength>9</CodeLength>
+    <DefaultObjectForm>Catalog.СпособыОплаты.ObjectForm</DefaultObjectForm>
+    <DefaultListForm>Catalog.СпособыОплаты.ListForm</DefaultListForm>
+    <DefaultChoiceForm>Catalog.СпособыОплаты.ChoiceForm</DefaultChoiceForm>
+    <DefaultListPresentation>Способы оплаты</DefaultListPresentation>
+    <DefaultFolderPresentation>Папка</DefaultFolderPresentation>
+    <UseStandardCommandsInList>true</UseStandardCommandsInList>
+    <NamePrefixes/>
+    <DataLockControlMode>Managed</DataLockControlMode>
+    <FullTextSearch>Use</FullTextSearch>
+    <ObjectPresentation>Способы оплаты</ObjectPresentation>
+    <ExtendedObjectPresentation/>
+    <ListPresentation>Способы оплаты</ListPresentation>
+    <ExtendedListPresentation/>
+    <ExplanationList/>
+    <CreateOnInputChoice>Auto</CreateOnInputChoice>
+    <DataHistory>DontUse</DataHistory>
+    <EditType>InDialog</EditType>
+    <ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+    <VersioningData>DoNotUse</VersioningData>
+    <Characteristics>false</Characteristics>
+    <StandardAttributes>
+      <StandardAttribute>
+        <Name>Code</Name>
+        <Synonym>Код</Synonym>
+        <Comment/>
+        <UUID>b5fffb11-765e-4da2-8dca-ad61fe53f244</UUID>
+        <IsEnabled>true</IsEnabled>
+        <DataHistory>DontUse</DataHistory>
+        <FullTextSearch>Use</FullTextSearch>
+      </StandardAttribute>
+    </StandardAttributes>
+    <Templates>
+      <Template>
+        <Name>ПечатьПреподавателей</Name>
+        <Comment/>
+        <UUID>56900c4b-6c72-4ec6-bea1-9020921def87</UUID>
+        <Type>SpreadsheetDocument</Type>
+        <FileName>ПечатьПреподавателей</FileName>
+      </Template>
+    </Templates>
+    <WriteMode>Exchange</WriteMode>
+    <SubordinationUse>NotUse</SubordinationUse>
+    <DataLockFields>
+    </DataLockFields>
+  </Properties>
+  <ChildObjects>
+  </ChildObjects>
+</MetaDataObject>

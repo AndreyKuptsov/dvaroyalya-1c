@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+
+  <Properties>
+    <Name>АрендыИнструментов</Name>
+    <Synonym>Аренда инструментов</Synonym>
+    <Comment/>
+    <UUID>fe72f806-cbc7-4c0c-8ecc-0b504e1c6ca6</UUID>
+    <RegisterType>Turnover</RegisterType>
+    <UseStandardCommands>true</UseStandardCommands>
+    <DataLockControlMode>Managed</DataLockControlMode>
+    <RegisterRecords>
+    </RegisterRecords>
+    <WriteMode>Exchange</WriteMode>
+    <DefaultListForm>AccumulationRegister.АрендыИнструментов.ListForm</DefaultListForm>
+  </Properties>
+  <ChildObjects>
+    <Dimension>
+      <Name>Инструмент</Name>
+      <Synonym>Инструмент</Synonym>
+      <Comment/>
+      <UUID>a4c36253-d5c1-444c-8036-5bd772641139</UUID>
+      <ValueType><v8:Type>cfg:CatalogRef.Инструменты</v8:Type><v8:TypeQualifiers><v8:Type>cfg:CatalogRef.Инструменты</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <Indexing>Index</Indexing>
+      <DataLockFields>Use</DataLockFields>
+    </Dimension>
+
+    <Dimension>
+      <Name>Клиент</Name>
+      <Synonym>Клиент</Synonym>
+      <Comment/>
+      <UUID>7e0bdca4-1aec-4934-b60b-56fc87297132</UUID>
+      <ValueType><v8:Type>cfg:CatalogRef.Клиенты</v8:Type><v8:TypeQualifiers><v8:Type>cfg:CatalogRef.Клиенты</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <Indexing>Index</Indexing>
+      <DataLockFields>Use</DataLockFields>
+    </Dimension>
+
+    <Dimension>
+      <Name>Филиал</Name>
+      <Synonym>Филиал</Synonym>
+      <Comment/>
+      <UUID>44b5f060-73b2-4283-8acb-1f48ff03676f</UUID>
+      <ValueType><v8:Type>cfg:EnumRef.Филиалы</v8:Type><v8:TypeQualifiers><v8:Type>cfg:EnumRef.Филиалы</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <Indexing>Index</Indexing>
+      <DataLockFields>Use</DataLockFields>
+    </Dimension>
+
+    <Resource>
+      <Name>Стоимость</Name>
+      <Synonym>Стоимость</Synonym>
+      <Comment/>
+      <UUID>81310400-6b86-4f74-adbb-65c7d49d947e</UUID>
+      <ValueType><v8:Type>xs:decimal</v8:Type><v8:Qualifiers><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Precision>15</v8:Precision><v8:Scale>2</v8:Scale></v8:NumberQualifiers></v8:Qualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <DataLockFields>Use</DataLockFields>
+    </Resource>
+
+    <Resource>
+      <Name>КоличествоЧасов</Name>
+      <Synonym>Количество часов</Synonym>
+      <Comment/>
+      <UUID>0425e444-92cd-446f-aea1-72287e1f35dc</UUID>
+      <ValueType><v8:Type>xs:decimal</v8:Type><v8:Qualifiers><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Precision>15</v8:Precision><v8:Scale>0</v8:Scale></v8:NumberQualifiers></v8:Qualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <DataLockFields>Use</DataLockFields>
+    </Resource>
+
+  </ChildObjects>
+</MetaDataObject>

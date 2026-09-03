@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+  <InternalInfo>
+    <xen:generator>
+      <xen:packageName>ДваРояля</xen:packageName>
+    </xen:generator>
+  </InternalInfo>
+  <Properties>
+    <Name>СтатусыАренды</Name>
+    <Synonym>Статусы аренды</Synonym>
+    <Comment/>
+    <UUID>345bce7a-17ba-4e67-bfc9-8697e9c88868</UUID>
+    <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+    <BelongsToUnknownSection>false</BelongsToUnknownSection>
+    <Value>
+      <Name>Запланирована</Name>
+      <Synonym>Запланирована</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Активна</Name>
+      <Synonym>Активна</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Завершена</Name>
+      <Synonym>Завершена</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Отменена</Name>
+      <Synonym>Отменена</Synonym>
+      <Comment/>
+    </Value>
+  </Properties>
+</MetaDataObject>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/composition" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcsse="http://v8.1c.ru/8.1/data-composition-system/settings-options" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+  <autoTitle>true</autoTitle>
+  <autoTitleSet>true</autoTitleSet>
+  <type>Managed</type>
+  <Extensions/>
+  <Attributes>
+    <Attribute name="Объект">
+      <Types><Type>cfg:CatalogObject.Абонементы</Type></Types>
+      <MainAttribute>true</MainAttribute>
+      <SavedData>true</SavedData>
+    </Attribute>
+  </Attributes>
+  <ChildItems>
+    <FormField name="Наименование" horizontalStretch="true">
+      <DataPath>Объект.Наименование</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Наименование</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="КоличествоЗанятий" horizontalStretch="true">
+      <DataPath>Объект.КоличествоЗанятий</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Количество занятий</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="СрокДействия" horizontalStretch="true">
+      <DataPath>Объект.СрокДействия</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Срок действия (дней)</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="Стоимость" horizontalStretch="true">
+      <DataPath>Объект.Стоимость</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Стоимость</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="Направление" horizontalStretch="true">
+      <DataPath>Объект.Направление</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Направление</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="ДлительностьЗанятия" horizontalStretch="true">
+      <DataPath>Объект.ДлительностьЗанятия</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Длительность занятия (мин)</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="ВозможностьЗаморозки" horizontalStretch="true">
+      <DataPath>Объект.ВозможностьЗаморозки</DataPath>
+      <Type>CheckBox</Type>
+      <Title>Возможность заморозки</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="МаксимальныйСрокЗаморозки" horizontalStretch="true">
+      <DataPath>Объект.МаксимальныйСрокЗаморозки</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Макс. срок заморозки (дней)</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="КоличествоПереносов" horizontalStretch="true">
+      <DataPath>Объект.КоличествоПереносов</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Количество переносов</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="Филиал" horizontalStretch="true">
+      <DataPath>Объект.Филиал</DataPath>
+      <Type>ComboBox</Type>
+      <Title>Филиал</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="Активность" horizontalStretch="true">
+      <DataPath>Объект.Активность</DataPath>
+      <Type>CheckBox</Type>
+      <Title>Активность</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+  </ChildItems>
+  <Commands/>
+  <Parameters/>
+  <EventHandlers/>
+  <ExtendedAttributes/>
+  <FormAttributes/>
+  <CommandInterface/>
+  <FormDependencies/>
+  <FormExtensions>
+    <FormExtension>
+      <Module></Module>
+    </FormExtension>
+  </FormExtensions>
+</Form>

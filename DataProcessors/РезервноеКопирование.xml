@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+
+  <Properties>
+    <Name>РезервноеКопирование</Name>
+    <Synonym>Резервное копирование</Synonym>
+    <Comment/>
+    <UUID>1ae7c682-d755-4ce2-8c84-f6d83139a9a1</UUID>
+    <UseStandardCommands>true</UseStandardCommands>
+    <DefaultForm>DataProcessor.РезервноеКопирование.Form</DefaultForm>
+  </Properties>
+  <ChildObjects>
+    <Attribute>
+      <Name>КаталогРезервныхКопий</Name>
+      <Synonym>Каталог резервных копий</Synonym>
+      <Comment/>
+      <UUID>f42204bc-6237-4cfd-80cf-ccbda0691485</UUID>
+      <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>КоличествоХранимыхКопий</Name>
+      <Synonym>Количество хранимых копий</Synonym>
+      <Comment/>
+      <UUID>f99f7857-7c5c-4db4-a251-34f8a131a2a5</UUID>
+      <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+  </ChildObjects>
+</MetaDataObject>

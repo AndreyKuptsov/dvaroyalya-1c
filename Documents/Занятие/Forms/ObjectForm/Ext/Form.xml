@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/composition" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcsse="http://v8.1c.ru/8.1/data-composition-system/settings-options" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+  <autoTitle>true</autoTitle>
+  <autoTitleSet>true</autoTitleSet>
+  <type>Managed</type>
+  <Extensions/>
+  <Attributes>
+    <Attribute name="Объект">
+      <Types><Type>cfg:DocumentObject.Занятие</Type></Types>
+      <MainAttribute>true</MainAttribute>
+      <SavedData>true</SavedData>
+    </Attribute>
+  </Attributes>
+  <ChildItems>
+    <FormField name="ДатаЗанятия" horizontalStretch="true">
+      <DataPath>Объект.ДатаЗанятия</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Дата</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="ВремяНачала" horizontalStretch="true">
+      <DataPath>Объект.ВремяНачала</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Время начала</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="ВремяОкончания" horizontalStretch="true">
+      <DataPath>Объект.ВремяОкончания</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Время окончания</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="Преподаватель" horizontalStretch="true">
+      <DataPath>Объект.Преподаватель</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Преподаватель</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="Аудитория" horizontalStretch="true">
+      <DataPath>Объект.Аудитория</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Аудитория</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="Направление" horizontalStretch="true">
+      <DataPath>Объект.Направление</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Направление</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="ТипЗанятия" horizontalStretch="true">
+      <DataPath>Объект.ТипЗанятия</DataPath>
+      <Type>ComboBox</Type>
+      <Title>Тип занятия</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="Статус" horizontalStretch="true">
+      <DataPath>Объект.Статус</DataPath>
+      <Type>ComboBox</Type>
+      <Title>Статус</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="Комментарий" horizontalStretch="true">
+      <DataPath>Объект.Комментарий</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Комментарий</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormTable name="Участники" horizontalStretch="true">
+      <DataPath>Объект.Участники</DataPath>
+      <Type>Table</Type>
+      <Title>Участники</Title>
+      <TitleLocation>Top</TitleLocation>
+      <ChildItems>
+        <FormField name="Клиент"><DataPath>Клиент</DataPath><Type>InputField</Type><Extension>Edit</Extension><Title>Клиент</Title></FormField>
+      </ChildItems>
+      <ChildItems>
+        <FormField name="Абонемент"><DataPath>Абонемент</DataPath><Type>InputField</Type><Extension>Edit</Extension><Title>Абонемент</Title></FormField>
+      </ChildItems>
+      <ChildItems>
+        <FormField name="СтатусПосещения"><DataPath>СтатусПосещения</DataPath><Type>InputField</Type><Extension>Edit</Extension><Title>Статус посещения</Title></FormField>
+      </ChildItems>
+      <ChildItems>
+        <FormField name="Стоимость"><DataPath>Стоимость</DataPath><Type>InputField</Type><Extension>Edit</Extension><Title>Стоимость</Title></FormField>
+      </ChildItems>
+      <ChildItems>
+        <FormField name="Комментарий"><DataPath>Комментарий</DataPath><Type>InputField</Type><Extension>Edit</Extension><Title>Комментарий</Title></FormField>
+      </ChildItems>
+    </FormTable>
+  </ChildItems>
+  <Commands/>
+  <Parameters/>
+  <EventHandlers/>
+  <ExtendedAttributes/>
+  <FormAttributes/>
+  <CommandInterface/>
+  <FormDependencies/>
+  <FormExtensions>
+    <FormExtension>
+      <Module></Module>
+    </FormExtension>
+  </FormExtensions>
+</Form>

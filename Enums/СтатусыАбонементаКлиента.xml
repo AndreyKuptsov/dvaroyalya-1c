@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+  <InternalInfo>
+    <xen:generator>
+      <xen:packageName>ДваРояля</xen:packageName>
+    </xen:generator>
+  </InternalInfo>
+  <Properties>
+    <Name>СтатусыАбонементаКлиента</Name>
+    <Synonym>Статусы абонемента клиента</Synonym>
+    <Comment/>
+    <UUID>0096d38a-f97c-4ed2-b88d-aaa0901e7c54</UUID>
+    <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+    <BelongsToUnknownSection>false</BelongsToUnknownSection>
+    <Value>
+      <Name>Активен</Name>
+      <Synonym>Активен</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Заморожен</Name>
+      <Synonym>Заморожен</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Закончился</Name>
+      <Synonym>Закончился</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Истёк</Name>
+      <Synonym>Истёк</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Отменён</Name>
+      <Synonym>Отменён</Synonym>
+      <Comment/>
+    </Value>
+  </Properties>
+</MetaDataObject>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+
+  <Properties>
+    <Name>ЗагрузкаПреподавателей</Name>
+    <Synonym>Загрузка преподавателей</Synonym>
+    <Comment/>
+    <UUID>a2161bf7-bbab-4fb1-9e11-9751d92343a7</UUID>
+    <RegisterType>Turnover</RegisterType>
+    <UseStandardCommands>true</UseStandardCommands>
+    <DataLockControlMode>Managed</DataLockControlMode>
+    <RegisterRecords>
+    </RegisterRecords>
+    <WriteMode>Exchange</WriteMode>
+    <DefaultListForm>AccumulationRegister.ЗагрузкаПреподавателей.ListForm</DefaultListForm>
+  </Properties>
+  <ChildObjects>
+    <Dimension>
+      <Name>Преподаватель</Name>
+      <Synonym>Преподаватель</Synonym>
+      <Comment/>
+      <UUID>8a13a3f9-e289-4f9b-8c27-0e2d72d23c1f</UUID>
+      <ValueType><v8:Type>cfg:CatalogRef.Преподаватели</v8:Type><v8:TypeQualifiers><v8:Type>cfg:CatalogRef.Преподаватели</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <Indexing>Index</Indexing>
+      <DataLockFields>Use</DataLockFields>
+    </Dimension>
+
+    <Resource>
+      <Name>Часы</Name>
+      <Synonym>Часы (минуты)</Synonym>
+      <Comment/>
+      <UUID>08566880-a568-428d-9da6-b2a8ddd0569d</UUID>
+      <ValueType><v8:Type>xs:decimal</v8:Type><v8:Qualifiers><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Precision>15</v8:Precision><v8:Scale>0</v8:Scale></v8:NumberQualifiers></v8:Qualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+      <DataLockFields>Use</DataLockFields>
+    </Resource>
+
+  </ChildObjects>
+</MetaDataObject>

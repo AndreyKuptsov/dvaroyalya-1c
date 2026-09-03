@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+
+  <Properties>
+    <Name>Задолженность</Name>
+    <Synonym>Задолженность</Synonym>
+    <Comment/>
+    <UUID>e732d443-26cf-42dc-a6aa-f89a353d4e42</UUID>
+    <DefaultForm>Report.Задолженность.Form</DefaultForm>
+    <StandardSettingsForm>Report.Задолженность.Настройки</StandardSettingsForm>
+    <ExtendedConfigurationDataCompositionSchema>
+      <DataCompositionSchema>c28979c3-e498-4568-a70c-5fc116fb51ab</DataCompositionSchema>
+    </ExtendedConfigurationDataCompositionSchema>
+  </Properties>
+</MetaDataObject>

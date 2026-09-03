@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+
+  <Properties>
+    <Name>Преподаватель</Name>
+    <Synonym>Преподаватель</Synonym>
+    <Comment/>
+    <UUID>cb04f67d-438a-413c-ade9-72d962cca5e4</UUID>
+    <DataHistory>DontUse</DataHistory>
+  </Properties>
+  <ChildObjects>
+    <Catalog>
+      <CatalogRef><Name>Клиенты</Name></CatalogRef>
+      <CatalogRights>
+    <Right><Name>Read</Name><Value><Access>Read</Access></Value></Right>
+
+      </CatalogRights>
+    </Catalog>
+    <Catalog>
+      <CatalogRef><Name>Направления</Name></CatalogRef>
+      <CatalogRights>
+    <Right><Name>Read</Name><Value><Access>Read</Access></Value></Right>
+
+      </CatalogRights>
+    </Catalog>
+    <Catalog>
+      <CatalogRef><Name>АбонементыКлиента</Name></CatalogRef>
+      <CatalogRights>
+    <Right><Name>Read</Name><Value><Access>Read</Access></Value></Right>
+
+      </CatalogRights>
+    </Catalog>
+    <Document>
+      <DocumentRef><Name>Занятие</Name></DocumentRef>
+      <DocumentRights>
+    <Right><Name>View</Name><Value><Access>Read</Access></Value></Right>
+
+      </DocumentRights>
+    </Document>
+    <Document>
+      <DocumentRef><Name>Посещение</Name></DocumentRef>
+      <DocumentRights>
+    <Right><Name>View</Name><Value><Access>Read</Access></Value></Right>
+
+      </DocumentRights>
+    </Document>
+    <InformationRegister>
+      <InformationRegisterRef><Name>РасписаниеПреподавателей</Name></InformationRegisterRef>
+      <InformationRegisterRights>
+    <Right><Name>Read</Name><Value><Access>Read</Access></Value></Right>
+
+      </InformationRegisterRights>
+    </InformationRegister>
+    <AccumulationRegister>
+      <AccumulationRegisterRef><Name>Посещения</Name></AccumulationRegisterRef>
+      <AccumulationRegisterRights>
+    <Right><Name>Read</Name><Value><Access>Read</Access></Value></Right>
+
+      </AccumulationRegisterRights>
+    </AccumulationRegister>
+    <AccumulationRegister>
+      <AccumulationRegisterRef><Name>ОстаткиАбонементов</Name></AccumulationRegisterRef>
+      <AccumulationRegisterRights>
+    <Right><Name>Read</Name><Value><Access>Read</Access></Value></Right>
+
+      </AccumulationRegisterRights>
+    </AccumulationRegister>
+    <Report>
+      <ReportRef><Name>Расписание</Name></ReportRef>
+      <ReportRights>
+    <Right><Name>View</Name><Value><Access>Read</Access></Value></Right>
+
+      </ReportRights>
+    </Report>
+    <CommonModule>
+      <CommonModuleRef><Name>ПараметрыСеанса</Name></CommonModuleRef>
+      <CommonModuleRights>
+    <Right><Name>Client</Name><Value><Access>Read</Access></Value></Right>
+
+    <Right><Name>Server</Name><Value><Access>Read</Access></Value></Right>
+
+      </CommonModuleRights>
+    </CommonModule>
+  </ChildObjects>
+</MetaDataObject>

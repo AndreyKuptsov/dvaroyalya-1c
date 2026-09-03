@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+
+  <InternalInfo>
+    <xen:generator><xen:packageName>ДваРояля</xen:packageName></xen:generator>
+  </InternalInfo>
+  <Properties>
+    <Name>ПереносЗанятия</Name>
+    <Synonym>Перенос занятия</Synonym>
+    <Comment/>
+    <UseStandardCommands>true</UseStandardCommands>
+    <NumberType>Number</NumberType>
+    <NumberLength>11</NumberLength>
+    <NumberAllowedLength>Variable</NumberAllowedLength>
+    <NumberPeriodicity>Nonperiodical</NumberPeriodicity>
+    <DefaultNumberingType>Auto</DefaultNumberingType>
+    <CheckUnique>DontCheck</CheckUnique>
+    <Autonumbering>Auto</Autonumbering>
+    <Posting>Allow</Posting>
+    <RealTimePosting>Disallow</RealTimePosting>
+    <DefaultPostingMode>Operation</DefaultPostingMode>
+    <PostingModeForUnposted>Operation</PostingModeForUnposted>
+    <PostingInPrivilegedMode>false</PostingInPrivilegedMode>
+    <CreateOnInput>Use</CreateOnInput>
+    <FullTextSearch>Use</FullTextSearch>
+    <IncludeHelpInContents>true</IncludeHelpInContents>
+    <UseStandardCommandsInList>true</UseStandardCommandsInList>
+    <NumberPrefix>true</NumberPrefix>
+    <NumberPeriodicity>Nonperiodical</NumberPeriodicity>
+    <ObjectPresentation>Перенос занятия</ObjectPresentation>
+    <ExtendedObjectPresentation/>
+    <ListPresentation>Перенос занятия</ListPresentation>
+    <ExtendedListPresentation/>
+    <Explanation/>
+    <DefaultObjectForm>Document.ПереносЗанятия.ObjectForm</DefaultObjectForm>
+    <DefaultListForm>Document.ПереносЗанятия.ListForm</DefaultListForm>
+    <DefaultChoiceForm>Document.ПереносЗанятия.ChoiceForm</DefaultChoiceForm>
+    <DefaultListPresentation>Перенос занятия</DefaultListPresentation>
+    <WriteMode>Exchange</WriteMode>
+    <LengthLimitOnEnter>false</LengthLimitOnEnter>
+    <RegisterRecords>
+    </RegisterRecords>
+    <Post>false</Post>
+    <DataLockFields>
+    </DataLockFields>
+    <NumberAuto>true</NumberAuto>
+  </Properties>
+  <ChildObjects>
+    <Attribute>
+      <Name>ПервоначальноеЗанятие</Name>
+      <Synonym>Первоначальное занятие</Synonym>
+      <Comment/>
+      <UUID>d62de596-4d66-43a7-a452-6013c8df8216</UUID>
+      <ValueType><v8:Type>cfg:DocumentRef.Занятие</v8:Type><v8:TypeQualifiers><v8:Type>cfg:DocumentRef.Занятие</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>НовоеЗанятие</Name>
+      <Synonym>Новое занятие</Synonym>
+      <Comment/>
+      <UUID>037aca65-943d-409f-8f28-adfc7a1d31ef</UUID>
+      <ValueType><v8:Type>cfg:DocumentRef.Занятие</v8:Type><v8:TypeQualifiers><v8:Type>cfg:DocumentRef.Занятие</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>ПричинаПереноса</Name>
+      <Synonym>Причина переноса</Synonym>
+      <Comment/>
+      <UUID>95b596e0-11fa-4475-bb53-8a9a9da3dd7b</UUID>
+      <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>ДатаПереноса</Name>
+      <Synonym>Дата переноса</Synonym>
+      <Comment/>
+      <UUID>1478611c-7aaa-476a-8c3f-90881d1373b9</UUID>
+      <ValueType><v8:Type>xs:dateTime</v8:Type><v8:TypeQualifiers><v8:Type>xs:dateTime</v8:Type><v8:DateQualifiers><v8:DateFractions>DateTime</v8:DateFractions></v8:DateQualifiers></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>Исполнитель</Name>
+      <Synonym>Исполнитель</Synonym>
+      <Comment/>
+      <UUID>2e87f8c1-2493-4993-97df-8279ec792465</UUID>
+      <ValueType><v8:Type>cfg:CatalogRef.Пользователи</v8:Type><v8:TypeQualifiers><v8:Type>cfg:CatalogRef.Пользователи</v8:Type></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>НоваяДата</Name>
+      <Synonym>Новая дата</Synonym>
+      <Comment/>
+      <UUID>2ae4b1a2-e078-476b-a7c2-e546e01b984f</UUID>
+      <ValueType><v8:Type>xs:dateTime</v8:Type><v8:TypeQualifiers><v8:Type>xs:dateTime</v8:Type><v8:DateQualifiers><v8:DateFractions>Date</v8:DateFractions></v8:DateQualifiers></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>НовоеВремяНачала</Name>
+      <Synonym>Новое время начала</Synonym>
+      <Comment/>
+      <UUID>4764b80f-01d0-4ab2-8f14-b57b856d2022</UUID>
+      <ValueType><v8:Type>xs:dateTime</v8:Type><v8:TypeQualifiers><v8:Type>xs:dateTime</v8:Type><v8:DateQualifiers><v8:DateFractions>DateTime</v8:DateFractions></v8:DateQualifiers></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+    <Attribute>
+      <Name>НовоеВремяОкончания</Name>
+      <Synonym>Новое время окончания</Synonym>
+      <Comment/>
+      <UUID>ecd80a57-2335-4c36-9af5-b26d6eab2949</UUID>
+      <ValueType><v8:Type>xs:dateTime</v8:Type><v8:TypeQualifiers><v8:Type>xs:dateTime</v8:Type><v8:DateQualifiers><v8:DateFractions>DateTime</v8:DateFractions></v8:DateQualifiers></v8:TypeQualifiers></ValueType>
+      <FillFromFillingValue>UseWhenFillingValueFilled</FillFromFillingValue>
+      <FullTextSearch>Use</FullTextSearch>
+    </Attribute>
+
+  </ChildObjects>
+</MetaDataObject>

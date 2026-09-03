@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/composition" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcsse="http://v8.1c.ru/8.1/data-composition-system/settings-options" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+  <autoTitle>true</autoTitle>
+  <autoTitleSet>true</autoTitleSet>
+  <type>Managed</type>
+  <Extensions/>
+  <Attributes>
+    <Attribute name="Объект">
+      <Types><Type>cfg:CatalogObject.Аудитории</Type></Types>
+      <MainAttribute>true</MainAttribute>
+      <SavedData>true</SavedData>
+    </Attribute>
+  </Attributes>
+  <ChildItems>
+    <FormField name="Наименование" horizontalStretch="true">
+      <DataPath>Объект.Наименование</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Наименование</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="Номер" horizontalStretch="true">
+      <DataPath>Объект.Номер</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Номер</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="Вместимость" horizontalStretch="true">
+      <DataPath>Объект.Вместимость</DataPath>
+      <Type>InputField</Type>
+      <Extension>Edit</Extension>
+      <Title>Вместимость</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="Тип" horizontalStretch="true">
+      <DataPath>Объект.Тип</DataPath>
+      <Type>ComboBox</Type>
+      <Title>Тип</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="Филиал" horizontalStretch="true">
+      <DataPath>Объект.Филиал</DataPath>
+      <Type>ComboBox</Type>
+      <Title>Филиал</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="НаличиеОборудования" horizontalStretch="true">
+      <DataPath>Объект.НаличиеОборудования</DataPath>
+      <Type>CheckBox</Type>
+      <Title>Наличие оборудования</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+    <FormField name="Статус" horizontalStretch="true">
+      <DataPath>Объект.Статус</DataPath>
+      <Type>CheckBox</Type>
+      <Title>Статус</Title>
+      <TitleLocation>Top</TitleLocation>
+    </FormField>
+  </ChildItems>
+  <Commands/>
+  <Parameters/>
+  <EventHandlers/>
+  <ExtendedAttributes/>
+  <FormAttributes/>
+  <CommandInterface/>
+  <FormDependencies/>
+  <FormExtensions>
+    <FormExtension>
+      <Module></Module>
+    </FormExtension>
+  </FormExtensions>
+</Form>

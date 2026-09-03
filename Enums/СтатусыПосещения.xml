@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logfrm" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enct">
+  <InternalInfo>
+    <xen:generator>
+      <xen:packageName>ДваРояля</xen:packageName>
+    </xen:generator>
+  </InternalInfo>
+  <Properties>
+    <Name>СтатусыПосещения</Name>
+    <Synonym>Статусы посещения</Synonym>
+    <Comment/>
+    <UUID>7fc87541-4e9b-46a4-876d-92a5cfb8a771</UUID>
+    <ValueType><v8:Type>xs:string</v8:Type></ValueType>
+    <BelongsToUnknownSection>false</BelongsToUnknownSection>
+    <Value>
+      <Name>Присутствовал</Name>
+      <Synonym>Присутствовал</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>Отсутствовал</Name>
+      <Synonym>Отсутствовал</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>ОтменилЗаранее</Name>
+      <Synonym>Отменил заранее</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>ОтменилПоздно</Name>
+      <Synonym>Отменил поздно</Synonym>
+      <Comment/>
+    </Value>
+    <Value>
+      <Name>УважительнаяПричина</Name>
+      <Synonym>Уважительная причина</Synonym>
+      <Comment/>
+    </Value>
+  </Properties>
+</MetaDataObject>
